@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Inter", sans-serif;
+     overflow: hidden;
+    background-color:hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 15px;
+     height: auto;
+}
+.main img{
+   border-radius:50% ;
+   height: 6rem;
+    
+}
+.main-h2{
+    margin-top: 1.5rem;
+}
+.main-p{
+    color: hsl(75, 94%, 57%);
+    margin-top:1rem ;
+    font-weight: 700;
+}
+
+.Social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    
+    
+}
+.social-media-list{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(0, 0%, 20%);
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+.social-media-list:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+   
+}
+.attribution{
+    position: relative;
+    top: 8rem;
+}
+.attribution a{
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+}
+ 
+@media screen and (max-width:600px){
+    .content{
+        height: auto;
+        width: 80%;
+    }
+    .main img{
+   border-radius:50% ;
+   height: 5rem;
+    
+}
+.main-h2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.main-p{
+    color: hsl(75, 94%, 57%);
+    margin-top:1rem ;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+p{
+    font-size: 0.8rem;
+    
+}
+.Social-media{
+    padding:1rem;
+    gap: 1rem;
+}
+.attribution{
+    font-size: 0.6rem;
+    
+}
+    
+}
+
+
